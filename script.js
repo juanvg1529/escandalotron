@@ -20,5 +20,7 @@ function escandalotron() {
     alert("The second person is the older");
   } else if (Agep3 > Agep1 && Agep3 > Agep2) {
     alert("The third person is the older");
+  } else if (Agep1 === Agep2 && Agep1 === Agep3) {
+    alert("All persons have the same age");
   }
 }
